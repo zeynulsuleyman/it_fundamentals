@@ -1,0 +1,83 @@
+#header {
+    background-color: black;
+    border-bottom: 5px solid red;
+}
+
+#header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+}
+
+#branding {
+    color: white;
+}
+
+span {
+    color: red;
+}
+
+ul {
+    margin: 0%;
+    padding: 0%;
+}
+
+#header li {
+    display: inline;
+    padding: 0 20px;
+    font-size: 16px;
+    color: white;
+}
+
+#header a {
+    color: white;
+    text-decoration: none;
+}
+
+#main h1 {
+    font-size: 60px;
+    margin: 200px 0 10px;
+
+}
+#main {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url(images/banner.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    height: 90vh;
+
+}
+
+
+#main p {
+    font-size: 30px;
+    
+}
+
+body {
+    font-family: 'Audiowide', cursive;
+}
+
+#about h2, #contact h2 {
+    font-size: 30px;
+    text-align: center;
+    color: red;
+    margin-top: 10px;
+}
+
+#about, #contact {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
